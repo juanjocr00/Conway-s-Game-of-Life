@@ -1,26 +1,25 @@
-# Juego de la Vida de Conway
-Juago de la vida de Conway por Juan José Creus Ramos (2019)
+# Conway's Game of Life
+Conway's Game of Life by Juan José Creus Ramos (2019)
 
-Este código fue un trabajo de universidad para la asignatura de Python.
+This code was a college assignment for a Python course.
 
-El Juego de la Vida fue inventado por el matemático John Conway en 1970. Su objetivo era crear un sistema que simulase la vida y su naturaleza impredecible. La forma en la que representa la vida es muy sencilla. Una cuadrícula de células, algunas están vivas, otras están muertas. Cada célula tiene ocho células vecinas, en vertical, horizontal y en las diagonales. Este sistema aparentemente tan simple puede generar patrones complejos e impredecibles gracias a unas sencillas reglas.
+The Game of Life was invented by mathematician John Conway in 1970. His goal was to create a system that simulates life and its unpredictable nature. The way it represents life is very simple. A grid of cells, some are alive, some are dead. Each cell has eight neighboring cells, vertically, horizontally and on the diagonals. This seemingly simple system can generate complex and unpredictable patterns thanks to a few simple rules.
 
-Conway probó a aplicar muchas y distintas reglas, algunas hacían que las células murieran muy pronto y otras hacían que nunca murieran. Las reglas de la versión final del juego mantienen un equilibrio. Esto hace que, a simple vista, sea muy difícil saber si un grupo de células vivirán o morirán después de cierto tiempo.
+Conway tried applying many different rules, some of which caused the cells to die very early and some of which caused them to never die. The rules in the final version of the game maintain a balance. This makes it very difficult to tell at first glance whether a group of cells will live or die after a certain time.
 
 ![Vida](https://user-images.githubusercontent.com/108018294/220268369-6950df64-2ae8-49e3-b655-a0a63883755c.gif)
 
-## Reglas
-Las reglas del juego son las siguientes:
+## Game Rules
+The rules of the game are as follows:
 
-• Si una célula está viva y tiene dos o tres vecinas vivas, sobrevive.
+- If a cell is alive and has two or three living neighbors, it survives.
 
-• Si una célula está muerta y tiene tres vecinas vivas, nace.
+- If a cell is dead and has three live neighbors, it is born.
 
-• Si una célula está viva y tiene más de tres vecinas vivas, muere.
+- If a cell is alive and has more than three live neighbors, it dies.
 
 
-Este proceso se puede ejecutar de manera indefinida.
-
+This process can run indefinitely.
 
 
 ![Gospers_glider_gun](https://user-images.githubusercontent.com/108018294/220268857-a0cc4493-249d-41f7-a47a-760b2a6e36ac.gif)
